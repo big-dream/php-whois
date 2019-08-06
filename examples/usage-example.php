@@ -1,10 +1,10 @@
 <?php
 
-include '../src/Phois/Whois/Whois.php';
+include '../src/bigDream/whois/Whois.php';
 
 $sld = 'reg.ru';
 
-$domain = new Phois\Whois\Whois($sld);
+$domain = new bigDream\whois\Whois($sld);
 
 $whois_answer = $domain->info();
 
