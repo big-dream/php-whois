@@ -1,6 +1,6 @@
 <?php
 
-namespace Phois\Whois;
+namespace bigDream\whois;
 
 class Whois
 {
